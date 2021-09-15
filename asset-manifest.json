@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/SolidityMintableProjectClient/static/css/main.b100e6da.chunk.css",
+    "main.js": "/SolidityMintableProjectClient/static/js/main.69811f40.chunk.js",
+    "main.js.map": "/SolidityMintableProjectClient/static/js/main.69811f40.chunk.js.map",
+    "runtime-main.js": "/SolidityMintableProjectClient/static/js/runtime-main.15fdb482.js",
+    "runtime-main.js.map": "/SolidityMintableProjectClient/static/js/runtime-main.15fdb482.js.map",
+    "static/js/2.7faedc76.chunk.js": "/SolidityMintableProjectClient/static/js/2.7faedc76.chunk.js",
+    "static/js/2.7faedc76.chunk.js.map": "/SolidityMintableProjectClient/static/js/2.7faedc76.chunk.js.map",
+    "index.html": "/SolidityMintableProjectClient/index.html",
+    "precache-manifest.9666eed3eda345f51e3ce535415ddc8f.js": "/SolidityMintableProjectClient/precache-manifest.9666eed3eda345f51e3ce535415ddc8f.js",
+    "service-worker.js": "/SolidityMintableProjectClient/service-worker.js",
+    "static/css/main.b100e6da.chunk.css.map": "/SolidityMintableProjectClient/static/css/main.b100e6da.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15fdb482.js",
+    "static/js/2.7faedc76.chunk.js",
+    "static/css/main.b100e6da.chunk.css",
+    "static/js/main.69811f40.chunk.js"
+  ]
+}
