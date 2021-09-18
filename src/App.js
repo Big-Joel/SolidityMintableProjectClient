@@ -118,7 +118,61 @@ class App extends Component {
     }
     return (
       <div className="App">
+        <div id="main" class="round_bottom_corners">
+        <div class="content">
+        <img id="img_main_cup" alt="Logo of a coffee cup" src="coffee_cup.png" />
         <h1>StarDucks Cappucino Token Sale</h1>
+        <h2>Get started</h2>
+        <div class="flex-container">
+          <div>
+            <p class="bold">Step 1: Kyc Whitelisting</p>
+            <br />
+            <p>
+              Address to allow: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange={this.handleInputChange} />
+              <br /><br />
+              <button type="button" onClick={this.handleKycWhitelisting}>Add to Whitelist</button>
+            </p>
+          </div>
+          <div>
+            <p class="bold">Step 2: Add credit</p>        
+            <br /> <br />
+            <p>If you want to buy tokens, send Wei to this address:
+            <p><input readonly style={{width: '95%'}} type="text" value={this.state.tokenSaleAddress} /> </p>
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <h2>Drink some coffee</h2>
+        <div class="flex-container">
+          <div>
+            <p class="bold">Step 3: The tokens</p>
+            <br />
+            <p>You currently have: {this.state.userTokens} CAPPU Tokens</p>
+            <br />
+            <button type="button" onClick={this.handleBuyTokens}>Buy more tokens</button>
+            <br /><br />
+            <p>*Total supply of CAPPU tokens: {this.state.totalSupply}</p>
+          </div>
+          <div>
+            <p class="bold">Step 4: Exchange for coffee 
+            </p>
+            <br />
+            <button type="button" onClick={this.handleBurnToken}>Get coffee</button>
+            <br /><br />
+            <p>
+              *(burn a token!)
+            </p>
+          </div>
+        </div>
+        <br />
+        <br />
+        <div class="small_centred">
+          <p>&copy;&nbsp;Joel Brooker</p>
+        </div>
+      </div>
+      </div>
+        {/* <h1>StarDucks Cappucino Token Sale</h1>
         <p>Get your Tokens today!</p>
         <h2>Kyc Whitelisting</h2>
         Address to allow: <input type="text" name="kycAddress" value={this.state.kycAddress} onChange={this.handleInputChange} />
@@ -129,7 +183,7 @@ class App extends Component {
         <button type="button" onClick={this.handleBuyTokens}>Buy more tokens</button>
         <p>Total supply of CAPPU tokens: {this.state.totalSupply}</p>
         <p>Get your coffee (and burn a token!)</p>
-        <button type="button" onClick={this.handleBurnToken}>Get coffee</button>
+        <button type="button" onClick={this.handleBurnToken}>Get coffee</button> */}
       </div>
     );
   }
