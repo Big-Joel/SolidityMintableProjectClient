@@ -1,28 +1,3 @@
-/*
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #09d3ac;
-}
-*/
-
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 
 * {
@@ -56,12 +31,14 @@ h2 {
 	justify-content: space-around;
 	align-items: center;
 	padding-top: 20px;
+	width: 100%;
 }
 
 .flex-container > div {
 	text-align: center;
 	width: 40%;
-	min-height: 20vh;
+	min-height: 170px;
+	height: 100%;
 	border: 1pt dotted #ba141a;
 	color: #7e070b;
   padding: 5px;
@@ -86,6 +63,7 @@ h2 {
 	float: right;
 	width: 10vw;
 	margin: 20px 10px;
+	
 }
 
 hr {
