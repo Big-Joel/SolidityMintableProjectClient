@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SolidityMintableProjectClient/precache-manifest.62fe0d35a223cc176326ffc6251a2f47.js"
+  "/SolidityMintableProjectClient/precache-manifest.16232d233b44009a7a73a41309168037.js"
 );
 
 self.addEventListener('message', (event) => {
